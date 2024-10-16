@@ -1,43 +1,94 @@
 /* Reset some default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 /* Basic layout styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Add your CSS below here */
+
+/* Table styling */
+table {
+  width: 90%;
+  margin: 32px auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+caption {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 16px;
+  border: 1px solid #444;
+  text-align: left;
+}
+
+th {
+  color: #00f7ff;
+  font-size: 18px;
+}
+
+td {
+  font-size: 16px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 16px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 8px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
