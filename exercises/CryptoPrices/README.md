@@ -19,3 +19,5 @@ Your component should return a table, with a caption of "Crypto Prices" and thre
 Below the table should be two buttons with the text of `Back` and `Next`. The back button should return to the previous page, and the next button should move to the next page. The back button should be disabled on the first page, and the next button should be disabled on the last page.
 
 Refer to the design file for the exact design requirements.
+
+![Alt text](CryptoPricesDesign.png "CryptoPricesDesign")
