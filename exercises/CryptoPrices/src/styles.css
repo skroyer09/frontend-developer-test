@@ -8,8 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #181718;
+  color: #fff;
 }
 
 /* Basic layout styles */
@@ -21,13 +21,14 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 main {
   display: flex;
-  justify-content: center;
-  margin: 40px 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
 
 footer {
@@ -35,9 +36,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /* Add your CSS below here */
@@ -45,14 +43,15 @@ footer {
 /* Table styling */
 table {
   width: 90%;
-  margin: 32px auto;
+  margin: 40px auto;
+  margin-bottom: 2px;
   border-collapse: collapse;
-  background-color: #1e1e1e;
   color: #fff;
 }
 
 caption {
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: bold;
   margin-bottom: 16px;
   color: #fff;
 }
@@ -66,37 +65,54 @@ td {
 
 th {
   color: #00f7ff;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 td {
-  font-size: 16px;
+  font-size: 20px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .high {
   color: #00ff00;
+  background-color: #203309;
+  padding: 10px;
 }
 
 .low {
   color: #ff0000;
+  background-color: #5c0c1d;
+  padding: 10px;
 }
 
 .pagination {
-  text-align: center;
+  text-align: left; /* Aligns the buttons to the left */
   margin-top: 16px;
+  width: 90%; /* Set the width to match the table */
 }
 
 button {
   padding: 12px 24px;
-  margin: 8px;
-  background-color: #444;
+  margin: 5px;
+  background-color: #181718;
   color: #fff;
-  border: none;
-  border-radius: 8px;
+  font-weight: bold;
+  font-size: large;
+  border: solid 1px #fff;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-coloe 0.3s;
+}
+
+button:hover {
+  padding: 13px 25px;
 }
 
 button:disabled {
-  background-color: #666;
   cursor: not-allowed;
 }

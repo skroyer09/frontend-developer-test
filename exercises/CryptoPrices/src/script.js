@@ -33,14 +33,17 @@ document.addEventListener("DOMContentLoaded", () => {
           <td>
             <img src="${coin.image}" 
             alt="${coin.name}" 
-            width="24"
-            height="24">
+            width="25"
+            height="25">
+            ${coin.symbol.toUpperCase()}
             ${coin.name}
         </td>
-        <td>
+        <td class="price-container">
           $${coin.current_price.toLocaleString()}
+          <div>
           <span class="high">H: ${coin.high_24h.toFixed(2)}</span>
           <span class="low">L: ${coin.low_24h.toFixed(2)}</span>
+          </div>
         </td>
         <td>$${coin.market_cap.toLocaleString()}</td>
       </tr>
