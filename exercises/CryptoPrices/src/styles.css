@@ -73,6 +73,14 @@ td {
   font-size: 16px;
 }
 
+.high {
+  color: #00ff00;
+}
+
+.low {
+  color: #ff0000;
+}
+
 .pagination {
   text-align: center;
   margin-top: 16px;
