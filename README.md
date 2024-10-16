@@ -1,7 +1,7 @@
-Frontend Developer Tests
+Frontend Developer Test
 ============
 
-These are the tests you have to complete as a part of your evaluation for a frontend developer position.
+This is the frontend developer test you have to complete as a part of your evaluation for a frontend developer position.
 We are looking for are passionate developers, who can take the ideas and requirements to results.
 
 Carefully read the below content before you begin the exercises.
