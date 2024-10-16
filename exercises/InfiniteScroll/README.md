@@ -57,3 +57,5 @@ Note that:
 - You should listen to `"scroll"` events (don't use `IntersectionObserver`).
 
 Refer to the design file for the exact design requirements (excluding the image for each testimonial).
+
+![Alt text](InfiniteScrollDesign.png "InfiniteScrollDesign")
