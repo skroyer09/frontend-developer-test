@@ -91,9 +91,9 @@ td {
 }
 
 .pagination {
-  text-align: left; /* Aligns the buttons to the left */
+  text-align: left;
   margin-top: 16px;
-  width: 90%; /* Set the width to match the table */
+  width: 70%;
 }
 
 button {
