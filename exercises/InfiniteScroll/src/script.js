@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     isFetching = true;
 
     try {
-      // had to use a CORS proxy to get the API URL to work
+      // had to use a CORS proxy to enable the API URL to function due to a cross-origin error.
+      // However, it's restricted to 50 requests per minute due to rate limits.
       let url = `https://cors-anywhere.herokuapp.com/https://api.frontendexpert.io/api/fe/testimonials?limit=${limit}`;
       if (after) {
         url += `&after=${after}`;

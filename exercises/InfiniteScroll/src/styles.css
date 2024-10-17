@@ -44,8 +44,9 @@ footer {
 /* Add your CSS below here */
 main h2 {
   font-size: 24px;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 20x;
+  margin-bottom: 10px;
 }
 
 #testimonial-container {
@@ -62,5 +63,6 @@ main h2 {
   padding: 10px;
   background-color: #343334;
   border-radius: 4px;
+  border-left: 4px solid #85c8f2;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
 }
