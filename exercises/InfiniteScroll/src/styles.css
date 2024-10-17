@@ -45,8 +45,9 @@ footer {
 main h2 {
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 10px;
+  margin-left: 150px;
+  align-self: flex-start;
 }
 
 #testimonial-container {
@@ -56,6 +57,8 @@ main h2 {
   background-color: #222222;
   border-radius: 8px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .testimonial {
